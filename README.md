@@ -56,7 +56,7 @@ console.log("Bem-vindo ao JavaScript!");
 ```
 💡 Demonstração:
 
-Peça aos alunos para abrirem o console do navegador e usarem console.log() para exibir mensagens e variáveis.
+Alunos para abrirem o console do navegador e usarem console.log() para exibir mensagens e variáveis.
 
 🟡 4. Variáveis e Tipos Primitivos
 O que são variáveis?
@@ -167,7 +167,7 @@ Comentário de múltiplas linhas:
 ---
 💡 Dica:
 
-Encoraje os alunos a usarem comentários para explicar partes do código.
+Os alunos a usarem comentários para explicar partes do código.
 
 ---
 
