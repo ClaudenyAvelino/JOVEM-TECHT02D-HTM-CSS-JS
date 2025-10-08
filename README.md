@@ -41,7 +41,7 @@ Use uma página estática (HTML + CSS) e outra com um botão que muda a cor de f
 <script> antes do </body>
 ```
 
-Coloque a tag para garantir que o HTML seja carregado primeiro, evitando erros ao acessar elementos da página.
+> Coloque a tag para garantir que o HTML seja carregado primeiro, evitando erros ao acessar elementos da página.
 
 
 
