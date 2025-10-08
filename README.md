@@ -37,10 +37,13 @@ Use uma página estática (HTML + CSS) e outra com um botão que muda a cor de f
 
 ✅ Boa prática:
 
-Coloque a tag 
 ```
-<script> antes do </body> para garantir que o HTML seja carregado primeiro, evitando erros ao acessar elementos da página.
+<script> antes do </body>
 ```
+
+Coloque a tag para garantir que o HTML seja carregado primeiro, evitando erros ao acessar elementos da página.
+
+
 
 🟡 3. Console e console.log()
 O que é o Console?
