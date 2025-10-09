@@ -259,4 +259,17 @@ Desenvolver um **site simples e funcional** com:
 | Criatividade e identidade visual | Originalidade e adequação ao negócio escolhido | 2,0    |
 | Entrevista e compreensão do cliente | Clareza nas informações obtidas do comércio/artesanato | 2,0    |
 | **Total**                     |                                                   | **10,0** |
+---
 
+📂 Organização do projeto (estrutura de pastas):
+
+
+
+
+
+```meu-site-comercial/
+│
+├── index.html
+├── style.css
+└── script.js
+```
