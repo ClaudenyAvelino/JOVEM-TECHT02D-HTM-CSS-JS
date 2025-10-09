@@ -200,6 +200,11 @@ aula01-js/
 <a href="https://1drv.ms/b/c/08a6d1d355a14254/EekiPdG7DF5HoyC8tHmB1KIB68XEELu7CvE7NEuPAYGsPQ?e=sz4afg">Atividade</a>
 
 ---
+
+
+---
+
+---
 # 🧭 Atividade Prática – Projeto “Meu Primeiro Site Comercial”
 
 ## 🎯 Objetivo da atividade:
@@ -208,12 +213,12 @@ Aplicar na prática os conhecimentos de HTML, CSS e JavaScript, desenvolvendo um
 ---
 
 ## 🧱 Descrição da atividade:
-Cada aluno deverá **sair a campo individualmente** e **prospectar um cliente real** em comércio local. — podendo ser:
+Cada grupo deverá **sair a campo individualmente** e **prospectar um cliente real** em comércio local. — podendo ser:
 
 - Um **comércio local** (mercadinho, lanchonete, loja de roupas, salão de beleza, etc.);  
 - Ou um **empreendimento de artesanato** (loja, feirante, artista local, oficina artesanal, etc.).  
 
-O aluno deverá conversar com o responsável pelo negócio para compreender:  
+O grupo deverá conversar com o responsável pelo negócio para compreender:  
 - O que o comércio oferece (produtos ou serviços);  
 - As informações que o cliente gostaria de divulgar no site (nome, endereço, contato, redes sociais, etc.);  
 - E o **estilo visual desejado** (cores, imagens, logotipo, etc.).
