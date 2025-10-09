@@ -196,5 +196,62 @@ aula01-js/
 ```
 
 
-📁
+📁 08/10/2025
 <a href="https://1drv.ms/b/c/08a6d1d355a14254/EekiPdG7DF5HoyC8tHmB1KIB68XEELu7CvE7NEuPAYGsPQ?e=sz4afg">Atividade</a>
+
+---
+# 🧭 Atividade Prática – Projeto “Meu Primeiro Site Comercial”
+
+## 🎯 Objetivo da atividade:
+Aplicar na prática os conhecimentos de HTML, CSS e JavaScript, desenvolvendo um site completo e funcional para um comércio local.
+
+---
+
+## 🧱 Descrição da atividade:
+Cada aluno deverá **sair a campo individualmente** e **prospectar um cliente real** em comércio local. — podendo ser:
+
+- Um **comércio local** (mercadinho, lanchonete, loja de roupas, salão de beleza, etc.);  
+- Ou um **empreendimento de artesanato** (loja, feirante, artista local, oficina artesanal, etc.).  
+
+O aluno deverá conversar com o responsável pelo negócio para compreender:  
+- O que o comércio oferece (produtos ou serviços);  
+- As informações que o cliente gostaria de divulgar no site (nome, endereço, contato, redes sociais, etc.);  
+- E o **estilo visual desejado** (cores, imagens, logotipo, etc.).
+
+---
+
+## 💻 Entrega:
+Desenvolver um **site simples e funcional** com:
+
+1. **HTML:** estrutura básica e seções organizadas (`header`, `main`, `section`, `footer`)  
+2. **CSS:** estilização personalizada, cores e layout atrativo  
+3. **JavaScript:** pelo menos uma **interatividade funcional**, como:
+   - Botão de alterar cor de fundo  
+   - Alerta de boas-vindas  
+   - Validação simples de formulário  
+   - Exibição de mensagem automática  
+
+---
+
+## 📌 Boas práticas:
+- Use **HTML semântico** para melhorar a acessibilidade e SEO.  
+- Mantenha **CSS organizado** e reutilizável, evitando estilos inline quando possível.  
+- Use **JavaScript externo** (`script.js`) e carregue-o antes do fechamento do `</body>`.  
+- Nomeie **classes e IDs** de forma clara e consistente.  
+- Teste o site em diferentes navegadores e tamanhos de tela (responsividade).  
+- Inclua **comentários** explicativos no código para facilitar a manutenção.  
+- Evite usar cores e fontes que prejudiquem a leitura.  
+
+---
+
+## 🧠 Critérios de avaliação:
+
+| Critério                     | Descrição                                           | Pontos |
+|-------------------------------|---------------------------------------------------|--------|
+| Estrutura HTML                | Uso correto das tags semânticas e organização do conteúdo | 2,0    |
+| Estilo CSS                    | Aplicação de layout, cores e design coerente com o tema | 2,0    |
+| Interatividade JS             | Funcionalidade implementada corretamente         | 2,0    |
+| Criatividade e identidade visual | Originalidade e adequação ao negócio escolhido | 2,0    |
+| Entrevista e compreensão do cliente | Clareza nas informações obtidas do comércio/artesanato | 2,0    |
+| **Total**                     |                                                   | **10,0** |
+
