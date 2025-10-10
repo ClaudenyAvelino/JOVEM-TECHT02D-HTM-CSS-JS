@@ -200,9 +200,127 @@ aula01-js/
 <a href="https://1drv.ms/b/c/08a6d1d355a14254/EekiPdG7DF5HoyC8tHmB1KIB68XEELu7CvE7NEuPAYGsPQ?e=sz4afg">Atividade</a>
 
 ---
+🟡 9. Estruturas de Controle (Laços de Repetição)
 
+Essencial para lógica de programação.
+
+➤ for, while, do...while
+
+```
+for (let i = 0; i < 5; i++) {
+  console.log("Número: " + i);
+}
+
+let j = 0;
+while (j < 5) {
+  console.log("Contando: " + j);
+  j++;
+}
+```
 
 ---
+💡 Atividade prática: Mostrar os números pares de 0 a 10 com for.
+
+---
+🟡 10. Funções
+➤ Declaração e chamada de funções
+
+```
+function saudacao(nome) {
+  console.log("Olá, " + nome + "!");
+}
+
+saudacao("Ana");
+```
+
+---
+➤ Funções com retorno:
+
+```
+function soma(a, b) {
+  return a + b;
+}
+
+let resultado = soma(2, 3);
+console.log(resultado);
+```
+---
+💡 Atividade: Criar uma função que calcula o IMC.
+---
+
+🟡 11. Arrays (Vetores)
+
+```
+let frutas = ["maçã", "banana", "laranja"];
+
+console.log(frutas[0]);       // maçã
+console.log(frutas.length);   // 3
+
+frutas.push("uva");           // adiciona
+frutas.pop();                 // remove o último
+```
+
+---
+
+💡 Atividade: Criar um array com nomes e exibir todos com um for.
+---
+
+🟡 12. Objetos.
+
+```
+let pessoa = {
+  nome: "João",
+  idade: 30,
+  profissao: "Dev"
+};
+
+console.log(pessoa.nome);
+```
+---
+
+💡 Atividade: Criar um objeto "carro" com marca, modelo e ano.
+
+---
+
+🟡 13. Manipulação do DOM (mais detalhado)
+
+➤ getElementById, querySelector, innerText, innerHTML, style
+```
+document.getElementById("meuBotao").addEventListener("click", function() {
+  document.body.style.backgroundColor = "blue";
+});
+```
+
+💡 Demonstração prática: Criar uma página com botão que muda texto, cor, ou esconde um bloco.
+
+---
+
+🟡 14. Eventos
+
+➤ click, mouseover, keydown, etc.
+
+```
+document.getElementById("meuBotao").onclick = function() {
+  alert("Botão clicado!");
+};
+```
+---
+
+💡 Atividade: Criar uma caixa de texto e exibir o que foi digitado em tempo real (evento input).
+---
+
+🟡 15 Conversão de Tipos
+
+```
+let numero = "10";
+console.log(Number(numero)); // 10 (number)
+
+```
+
+💡 Atividade: Soma de dois números digitados pelo usuário (inputs) e mostrar o resultado.
+
+
+
 
 ---
 # 🧭 Atividade Prática – Projeto “Meu Primeiro Site Comercial”
@@ -262,10 +380,6 @@ Desenvolver um **site simples e funcional** com:
 ---
 
 📂 Organização do projeto (estrutura de pastas):
-
-
-
-
 
 ```meu-site-comercial/
 │
