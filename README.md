@@ -327,6 +327,28 @@ console.log(Number(numero)); // 10 (number)
 
 >⚠️ Aviso: **Não é permitido:** Utilizar ferramentas de Inteligência Artificial (IA), como ChatGPT, Bing Chat, Gemini, etc.
 
+> ✅ **Você pode utilizar:**
+ <ol>
+  <li>Seu caderno ou anotações pessoais.</li>
+  <li>O manual de HTML, CSS e JavaScript apresentado pelo professor.
+      <ol>
+      <li>https://www.w3schools.com/</li>
+      <li>https://htmldog.com/references/html/</li>
+      <li>https://html.com/html5/</li>
+      <li>https://color.adobe.com/pt/create/color-wheel</li>
+    </ol>
+  </li>
+  <li>Materiais didáticos utilizados durante as aulas
+    <ol>
+      <li>https://github.com/ClaudenyAvelino/JOVEM-TECHT02D-LOGICA</li>
+      <li>https://github.com/ClaudenyAvelino/html-basico</li>
+       <li>https://github.com/ClaudenyAvelino/JOVEM-TECHT02D-HTML-CSS-JS</li>
+    </ol>
+  </li>
+</ol>
+
+
+
 ## 🎯 Objetivo da atividade:
 Aplicar na prática os conhecimentos de HTML, CSS e JavaScript, desenvolvendo um site completo e funcional para um comércio local.
 
