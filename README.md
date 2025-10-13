@@ -325,6 +325,8 @@ console.log(Number(numero)); // 10 (number)
 ---
 # 🧭 Atividade Prática – Projeto “Meu Primeiro Site Comercial”
 
+>⚠️ Aviso: **Não é permitido:** Utilizar ferramentas de Inteligência Artificial (IA), como ChatGPT, Bing Chat, Gemini, etc.
+
 ## 🎯 Objetivo da atividade:
 Aplicar na prática os conhecimentos de HTML, CSS e JavaScript, desenvolvendo um site completo e funcional para um comércio local.
 
