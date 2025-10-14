@@ -520,6 +520,7 @@ console.log(Number(numero)); // 10 (number)
       <li>https://htmldog.com/references/html/</li>
       <li>https://html.com/html5/</li>
       <li>https://color.adobe.com/pt/create/color-wheel</li>
+      <li>https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/script</li>
     </ol>
   </li>
   <li>Materiais didáticos utilizados durante as aulas
