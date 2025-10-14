@@ -305,6 +305,187 @@ document.getElementById("meuBotao").onclick = function() {
 };
 ```
 ---
+# 📚 Aula: Manipulação do DOM com JavaScript
+
+## 🟡 Slide 1 – Título
+**Manipulação do DOM com JavaScript**
+
+**Conteúdos abordados:**
+- `getElementById`, `querySelector`
+- `innerText`, `innerHTML`
+- `style`
+- Eventos com `addEventListener`
+
+---
+
+## 🟡 Slide 2 – O que é DOM?
+
+- **DOM** = *Document Object Model*
+- Representa a página HTML como uma **árvore de objetos**
+- JavaScript pode **acessar e modificar** elementos HTML
+
+📌 **Exemplo:**
+
+```html
+<div id="exemplo">Olá</div>
+```
+---
+```
+document.getElementById("exemplo").innerText = "Novo texto!";
+```
+
+🟡 Slide 3 – Seletores DOM
+
+🔹 Métodos mais usados:
+
+```document.getElementById("id")
+document.querySelector("seletor CSS")
+document.querySelectorAll("seletor CSS")
+```
+
+📌 Exemplos:
+
+```document.getElementById("titulo")
+document.querySelector(".minhaClasse")
+document.querySelector("#meuBotao")
+```
+
+👨‍🏫 Demonstração – Passo a passo:
+
+HTML de exemplo:
+```<h1 id="titulo">Bem-vindo</h1>
+<p class="texto">Parágrafo 1</p>
+<p class="texto">Parágrafo 2</p>
+<div id="caixa">
+  <p>Conteúdo da caixa</p>
+</div>
+```
+Abrir DevTools (F12) e usar o Console:
+
+```
+// 👉 getElementById
+document.getElementById("titulo")
+
+// 👉 querySelector
+document.querySelector(".texto")
+
+// 👉 querySelectorAll
+document.querySelectorAll(".texto")
+```
+
+📝 Observações:
+
+querySelector retorna o primeiro elemento que combina.
+
+querySelectorAll retorna todos os elementos.
+
+💡 Modificando visualmente:
+
+```
+document.getElementById("titulo").innerText = "Novo Título!";
+document.querySelector("#caixa").style.backgroundColor = "lightgreen";
+```
+
+🟡 Slide 4 – Modificando Conteúdo
+
+```
+element.innerText = "Texto comum";
+element.innerHTML = "<strong>Texto em negrito</strong>";
+```
+
+✅ innerText: exibe apenas texto
+✅ innerHTML: interpreta HTML
+
+🟡 Slide 5 – Estilizando com JS
+
+```
+element.style.color = "blue";
+element.style.backgroundColor = "yellow";
+element.style.display = "none";
+```
+
+📌 É possível alterar qualquer estilo CSS via JavaScript!
+
+
+🟡 Slide 6 – Eventos com addEventListener
+
+```
+element.addEventListener("click", function() {
+  // ação a ser executada
+});
+```
+
+🎯 Eventos comuns:
+
+click
+input
+mouseover
+submit
+
+---
+🟡 Slide 7 – Demonstração prática
+
+🎯 Exercício:
+
+Criar uma página com:
+
+Um bloco de texto
+
+Três botões:
+
+Mudar o texto
+
+Mudar a cor de fundo
+
+Esconder ou mostrar o bloco
+
+```
+<div id="meuBloco">
+  <p id="textoBloco">Este é o texto original.</p>
+</div>
+
+<button id="btnTexto">Alterar Texto</button>
+<button id="btnCor">Mudar Cor</button>
+<button id="btnEsconder">Esconder/Mostrar</button>
+```
+
+🟡 Slide 9 – Código JavaScript externo
+
+```
+const bloco = document.getElementById("meuBloco");
+const texto = document.querySelector("#textoBloco");
+
+document.getElementById("btnTexto").addEventListener("click", function() {
+  texto.innerText = "O texto foi alterado com sucesso!";
+});
+
+document.getElementById("btnCor").addEventListener("click", function() {
+  bloco.style.backgroundColor = "lightblue";
+});
+
+document.getElementById("btnEsconder").addEventListener("click", function() {
+  bloco.style.display = bloco.style.display === "none" ? "block" : "none";
+});
+```
+
+🟡 Slide 10 – Lição de casa
+
+🎯 Crie uma página com:
+
+Um título
+
+Um campo de input
+
+Um botão “Enviar”
+
+Ao clicar, exibir a mensagem:
+
+📢 "Olá, [nome digitado]!"
+
+💡 Dica: Use getElementById, innerText, style, e click
+
+---
+
 
 💡 Atividade: Criar uma caixa de texto e exibir o que foi digitado em tempo real (evento input).
 ---
