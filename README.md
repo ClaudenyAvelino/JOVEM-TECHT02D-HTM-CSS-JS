@@ -329,6 +329,9 @@ document.getElementById("meuBotao").onclick = function() {
 ```html
 <div id="exemplo">Olá</div>
 ```
+![DOM HTML](/img/dom.jpg "Manipulando DOM com JavaScript")
+
+
 ---
 ```
 document.getElementById("exemplo").innerText = "Novo texto!";
